@@ -1,9 +1,9 @@
 import { Clock, CalendarDays } from "lucide-react"
 
 const schedule = [
-  { dates: "21. – 22. 6. 2025", time: "10:00 – 19:00" },
-  { dates: "23. – 27. 6. 2025", time: "14:00 – 19:00" },
-  { dates: "28. 6. – 31. 8. 2025", time: "9:00 – 19:00", highlight: true },
+  { dates: "21. – 22. 6. 2026", time: "10:00 – 19:00" },
+  { dates: "23. – 27. 6. 2026", time: "14:00 – 19:00" },
+  { dates: "28. 6. – 31. 8. 2026", time: "9:00 – 19:00", highlight: true },
 ]
 
 export function HoursSection() {

@@ -21,7 +21,7 @@ export function HeroSection() {
           <div>
             <span className="mb-5 inline-flex w-fit items-center gap-2 rounded-full bg-emerald-400/95 px-4 py-1.5 text-sm font-medium text-[#ffffff]">
               <Sun className="h-4 w-4" />
-              Letní sezóna 2025 je v plném proudu
+              Letní sezóna 2026 je v plném proudu
             </span>
 
             <h1 className="max-w-2xl font-heading text-4xl font-800 leading-tight text-balance sm:text-5xl md:text-6xl">
