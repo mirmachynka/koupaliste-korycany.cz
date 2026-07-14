@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Waves, Menu, X } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const links = [
@@ -16,13 +16,9 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-white/85 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 md:px-6">
-        <a href="#" className="flex items-center gap-2">
-          <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground">
-            <Waves className="h-5 w-5" />
-          </span>
+        <a href="#" className="flex items-center">
           <span className="font-heading text-lg font-700 leading-tight text-foreground">
-            Koupaliště
-            <span className="block text-xs font-500 text-muted-foreground">Koryčany</span>
+            Koupaliště Koryčany
           </span>
         </a>
 
