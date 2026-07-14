@@ -1,6 +1,6 @@
 export function NewsSection() {
   return (
-    <section id="aktuality" className="scroll-mt-20 bg-white py-20 md:py-28">
+    <section id="aktuality" className="scroll-mt-20 bg-white">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>

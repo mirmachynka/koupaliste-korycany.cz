@@ -32,7 +32,7 @@ const contactItems = [
 
 export function ContactSection() {
   return (
-    <section id="kontakt" className="scroll-mt-20 bg-white border-t border-border py-20 md:py-28">
+    <section id="kontakt" className="scroll-mt-20 bg-white">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <span className="text-sm font-semibold uppercase tracking-wide text-primary">Kontakt</span>

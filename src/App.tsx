@@ -12,16 +12,18 @@ export default function App() {
   return (
     <div className="min-h-screen bg-background">
       <SiteHeader />
-      <main>
-        <HeroSection />
-        <NewsSection />
-        <AmenitiesSection />
-        <GallerySection />
-        <PricingSection />
-        <HoursSection />
-        <ContactSection />
-      </main>
-      <ContactFooter />
+      <div className="flex flex-col gap-20 md:gap-28">
+        <main className="flex flex-col gap-20 md:gap-28">
+          <HeroSection />
+          <NewsSection />
+          <AmenitiesSection />
+          <GallerySection />
+          <PricingSection />
+          <HoursSection />
+          <ContactSection />
+        </main>
+        <ContactFooter />
+      </div>
     </div>
   )
 }

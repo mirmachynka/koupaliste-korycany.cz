@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://koupaliste-korycany.cz/sitemap.xml

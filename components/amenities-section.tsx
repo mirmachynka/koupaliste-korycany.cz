@@ -45,30 +45,32 @@ const amenities = [
 
 export function AmenitiesSection() {
   return (
-    <section id="nabidka" className="mx-auto max-w-6xl scroll-mt-20 px-4 py-20 md:px-6 md:py-28">
-      <div className="mx-auto max-w-2xl text-center">
-        <span className="text-sm font-semibold uppercase tracking-wide text-primary">Máme pro vás nachystáno</span>
-        <h2 className="mt-3 font-heading text-3xl font-700 text-balance text-foreground md:text-4xl">
-          Vše pro dokonalý letní den
-        </h2>
-        <p className="mt-4 text-muted-foreground leading-relaxed text-pretty">
-          Od plavání a sportu až po odpočinek na trávě, u nás si užije každý člen rodiny.
-        </p>
-      </div>
+    <section id="nabidka" className="scroll-mt-20 bg-white">
+      <div className="mx-auto max-w-6xl px-4 md:px-6">
+        <div className="mx-auto max-w-2xl text-center">
+          <span className="text-sm font-semibold uppercase tracking-wide text-primary">Máme pro vás nachystáno</span>
+          <h2 className="mt-3 font-heading text-3xl font-700 text-balance text-foreground md:text-4xl">
+            Vše pro dokonalý letní den
+          </h2>
+          <p className="mt-4 text-muted-foreground leading-relaxed text-pretty">
+            Od plavání a sportu až po odpočinek na trávě, u nás si užije každý člen rodiny.
+          </p>
+        </div>
 
-      <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-        {amenities.map((item) => (
-          <div
-            key={item.title}
-            className="group rounded-2xl border border-border bg-card p-6 transition-colors hover:border-primary/20 hover:bg-white"
-          >
-            <span className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors group-hover:bg-primary/14">
-              <item.icon className="h-6 w-6" />
-            </span>
-            <h3 className="mt-4 font-heading text-lg font-semibold text-foreground">{item.title}</h3>
-            <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{item.desc}</p>
-          </div>
-        ))}
+        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {amenities.map((item) => (
+            <div
+              key={item.title}
+              className="group rounded-2xl border border-border bg-card p-6 transition-colors hover:border-primary/20 hover:bg-white"
+            >
+              <span className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors group-hover:bg-primary/14">
+                <item.icon className="h-6 w-6" />
+              </span>
+              <h3 className="mt-4 font-heading text-lg font-semibold text-foreground">{item.title}</h3>
+              <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{item.desc}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   )

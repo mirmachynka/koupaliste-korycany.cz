@@ -8,7 +8,7 @@ const schedule = [
 
 export function HoursSection() {
   return (
-    <section id="otviraci-doba" className="scroll-mt-20 bg-background py-20 md:py-28">
+    <section id="otviraci-doba" className="scroll-mt-20 bg-background">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <div>
