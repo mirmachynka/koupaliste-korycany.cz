@@ -2,7 +2,6 @@ import { useState, useEffect, useCallback } from "react"
 import { Sun, ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { heroSlides } from "@/lib/site-images"
-import { socialLinks } from "@/lib/social-links"
 
 export function HeroSection() {
   const [current, setCurrent] = useState(0)
@@ -48,31 +47,6 @@ export function HeroSection() {
                 className="border-white/20 bg-transparent text-white hover:border-white/30 hover:bg-white/10 hover:text-white"
                 render={<a href="#nabidka">Co u nás najdete</a>}
               />
-            </div>
-
-            <div className="mt-5 flex items-center gap-3">
-              <span className="text-sm font-medium text-white/72">Sledujte nás</span>
-              <div className="flex items-center gap-2">
-                {socialLinks.map((link) => (
-                  <a
-                    key={link.href}
-                    href={link.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={link.label}
-                    title={link.label}
-                    className="flex h-10 w-10 items-center justify-center rounded-full border border-white/18 bg-white/10 text-white transition-colors hover:border-white/35 hover:bg-white/18"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                      className="h-5 w-5 fill-current"
-                    >
-                      <path d={link.iconPath} />
-                    </svg>
-                  </a>
-                ))}
-              </div>
             </div>
 
             <div className="mt-10 flex items-center gap-2 text-sm text-white/72">
