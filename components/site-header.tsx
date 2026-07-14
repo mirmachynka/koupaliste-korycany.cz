@@ -3,6 +3,7 @@ import { Waves, Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const links = [
+  { href: "#aktuality", label: "Aktuality" },
   { href: "#nabidka", label: "Nabídka" },
   { href: "#cenik", label: "Ceník" },
   { href: "#otviraci-doba", label: "Otevírací doba" },

@@ -15,7 +15,7 @@ export function HeroSection() {
   }, [next])
 
   return (
-    <section className="overflow-hidden bg-slate-700 text-white">
+    <section className="overflow-hidden bg-[#486584] text-white">
       <div className="mx-auto max-w-6xl px-4 py-16 md:px-6 md:py-20">
         <div className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div>
@@ -28,7 +28,7 @@ export function HeroSection() {
               Koupaliště Koryčany
             </h1>
 
-            <p className="mt-5 max-w-xl text-lg leading-relaxed text-pretty text-slate-200">
+            <p className="mt-5 max-w-xl text-lg leading-relaxed text-pretty text-white/84">
               Ideální místo pro letní rodinnou zábavu i sportovní relaxaci. Přijďte si zaplavat, zrelaxovat na
               slunci a užít si pravou letní atmosféru.
             </p>
@@ -49,7 +49,7 @@ export function HeroSection() {
               />
             </div>
 
-            <div className="mt-10 flex items-center gap-2 text-sm text-slate-300">
+            <div className="mt-10 flex items-center gap-2 text-sm text-white/72">
               <img
                 src="/logo.png"
                 alt="Logo Koupaliště Koryčany"
@@ -59,7 +59,7 @@ export function HeroSection() {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-3xl border border-white/12 bg-slate-800/28">
+          <div className="relative overflow-hidden rounded-3xl border border-white/12 bg-[#3d5671]/30">
             <div className="relative aspect-[4/3] sm:aspect-[5/4]">
               {heroSlides.map((slide, i) => (
                 <img
@@ -71,7 +71,7 @@ export function HeroSection() {
                   }`}
                 />
               ))}
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-800/45 via-slate-800/10 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#2f4257]/42 via-[#2f4257]/10 to-transparent" />
             </div>
 
             <div className="absolute inset-x-0 bottom-0 flex items-center justify-between gap-4 p-4">

@@ -2,7 +2,7 @@ import { Waves } from "lucide-react"
 
 export function ContactFooter() {
   return (
-    <footer className="bg-slate-700 py-10">
+    <footer className="bg-[#486584] py-10">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
           <div className="flex items-center gap-2.5">
@@ -16,6 +16,7 @@ export function ContactFooter() {
 
           <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2">
             {[
+              { href: "#aktuality", label: "Aktuality" },
               { href: "#nabidka", label: "Nabídka" },
               { href: "#cenik", label: "Ceník" },
               { href: "#otviraci-doba", label: "Otevírací doba" },

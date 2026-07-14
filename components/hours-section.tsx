@@ -31,7 +31,7 @@ export function HoursSection() {
                 key={item.dates}
                 className={`flex items-center justify-between gap-4 rounded-2xl border px-6 py-5 ${
                   item.highlight
-                    ? "border-slate-700 bg-slate-700 text-white"
+                    ? "border-[#486584] bg-[#486584] text-white"
                     : "border-border bg-white text-foreground"
                 }`}
               >

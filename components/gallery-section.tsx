@@ -2,7 +2,7 @@ import { galleryImages } from "@/lib/site-images"
 
 export function GallerySection() {
   return (
-    <section className="bg-slate-700 py-20 md:py-28">
+    <section className="bg-[#486584] py-20 md:py-28">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <div className="grid gap-6 lg:grid-cols-2 lg:items-center">
           <div className="order-2 grid grid-cols-2 gap-4 lg:order-1">
@@ -24,13 +24,13 @@ export function GallerySection() {
           </div>
 
           <div className="order-1 lg:order-2 lg:pl-6">
-            <span className="text-sm font-semibold uppercase tracking-wide text-slate-300">
-              Aktuálně
+            <span className="text-sm font-semibold uppercase tracking-wide text-white/72">
+              Areál
             </span>
             <h2 className="mt-3 font-heading text-3xl font-700 text-balance text-white md:text-4xl">
               Léto v Koryčanech začíná u vody
             </h2>
-            <p className="mt-4 text-slate-200 leading-relaxed text-pretty">
+            <p className="mt-4 leading-relaxed text-pretty text-white/84">
               Ať už si přijdete zaplavat, zahrát beachvolejbal nebo se jen opalovat na rozlehlé travnaté ploše,
               čeká vás příjemně upravený areál s občerstvením a zázemím pro celou rodinu. Sledujte provozní dobu
               a plánované akce a přijďte si užít letní atmosféru.
@@ -54,7 +54,7 @@ export function GallerySection() {
                   >
                     {stat.value}
                   </dt>
-                  <dd className="flex min-h-[2.5rem] items-center justify-center text-xs text-slate-300">
+                  <dd className="flex min-h-[2.5rem] items-center justify-center text-xs text-white/72">
                     {stat.label}
                   </dd>
                 </div>

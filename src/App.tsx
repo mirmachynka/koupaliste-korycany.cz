@@ -4,6 +4,7 @@ import { ContactSection } from "@/components/contact-section"
 import { GallerySection } from "@/components/gallery-section"
 import { HeroSection } from "@/components/hero-section"
 import { HoursSection } from "@/components/hours-section"
+import { NewsSection } from "@/components/news-section"
 import { PricingSection } from "@/components/pricing-section"
 import { SiteHeader } from "@/components/site-header"
 
@@ -13,6 +14,7 @@ export default function App() {
       <SiteHeader />
       <main>
         <HeroSection />
+        <NewsSection />
         <AmenitiesSection />
         <GallerySection />
         <PricingSection />
