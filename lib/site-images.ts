@@ -1,29 +1,29 @@
 export const heroSlides = [
   {
     src: "/image1.jpg",
-    alt: "Hlavní bazén koupaliště Koryčany za slunečného dne s výhledem na lesy v okolí",
-  },
-  {
-    src: "/image2.jpg",
-    alt: "Plavci v hlavním bazénu koupaliště Koryčany obklopeném přírodou Chřibů",
+    alt: "",
   },
   {
     src: "/image3.jpg",
-    alt: "Dětský bazének v areálu koupaliště Koryčany s vodním hříbkem",
+    alt: "",
+  },
+  {
+    src: "/image2.jpg",
+    alt: "",
   },
 ] as const
 
 export const galleryImages = [
   {
     src: "/image1.jpg",
-    alt: "Široký pohled přes hlavní bazén koupaliště Koryčany",
+    alt: "",
   },
   {
     src: "/image3.jpg",
-    alt: "Rodiny a děti v dětském bazénku koupaliště Koryčany",
+    alt: "",
   },
   {
     src: "/image4.jpg",
-    alt: "Dětské hřiště v areálu koupaliště Koryčany",
+    alt: "",
   },
 ] as const

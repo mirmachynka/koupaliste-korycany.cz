@@ -1,3 +1,4 @@
+import { ExpandableImage } from "@/components/expandable-image"
 import { galleryImages } from "@/lib/site-images"
 
 export function GallerySection() {
@@ -6,20 +7,20 @@ export function GallerySection() {
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <div className="grid gap-6 lg:grid-cols-2 lg:items-center">
           <div className="order-2 grid grid-cols-2 gap-4 lg:order-1">
-            <img
+            <ExpandableImage
               src={galleryImages[0].src}
               alt={galleryImages[0].alt}
-              className="col-span-2 h-56 w-full rounded-2xl object-cover sm:h-72"
+              className="col-span-2 h-56 w-full sm:h-72"
             />
-            <img
+            <ExpandableImage
               src={galleryImages[1].src}
               alt={galleryImages[1].alt}
-              className="h-40 w-full rounded-2xl object-cover sm:h-48"
+              className="h-40 w-full sm:h-48"
             />
-            <img
+            <ExpandableImage
               src={galleryImages[2].src}
               alt={galleryImages[2].alt}
-              className="h-40 w-full rounded-2xl object-cover sm:h-48"
+              className="h-40 w-full sm:h-48"
             />
           </div>
 

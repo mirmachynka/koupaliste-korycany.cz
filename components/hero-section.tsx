@@ -65,7 +65,8 @@ export function HeroSection() {
                 <img
                   key={slide.src}
                   src={slide.src}
-                  alt={slide.alt}
+                  alt=""
+                  aria-hidden="true"
                   className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 ${
                     i === current ? "opacity-100" : "opacity-0"
                   }`}

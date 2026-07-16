@@ -1,4 +1,13 @@
-import { Waves, Baby, Volleyball, Trees, TableProperties, UtensilsCrossed, Wifi, Umbrella } from "lucide-react"
+import {
+  Baby,
+  TableProperties,
+  Trees,
+  Umbrella,
+  UtensilsCrossed,
+  Volleyball,
+  Waves,
+  Wifi,
+} from "lucide-react"
 
 const amenities = [
   {

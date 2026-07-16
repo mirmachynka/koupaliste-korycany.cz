@@ -283,10 +283,16 @@
 
   html {
     scroll-behavior: smooth;
+    scrollbar-gutter: stable;
   }
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  ::selection {
+    background: #e8f1f8;
+    color: #203348;
   }
 }
 

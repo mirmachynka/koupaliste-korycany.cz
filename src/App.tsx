@@ -1,6 +1,7 @@
 import { AmenitiesSection } from "@/components/amenities-section"
 import { ContactFooter } from "@/components/contact-footer"
 import { ContactSection } from "@/components/contact-section"
+import { FoodSection } from "@/components/food-section"
 import { GallerySection } from "@/components/gallery-section"
 import { HeroSection } from "@/components/hero-section"
 import { HoursSection } from "@/components/hours-section"
@@ -20,6 +21,7 @@ export default function App() {
           <GallerySection />
           <PricingSection />
           <HoursSection />
+          <FoodSection />
           <ContactSection />
         </main>
         <ContactFooter />

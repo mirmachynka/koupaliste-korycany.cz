@@ -1,3 +1,5 @@
+import { ExpandableImage } from "@/components/expandable-image"
+
 export function NewsSection() {
   return (
     <section id="aktuality" className="scroll-mt-20 bg-white">
@@ -31,10 +33,10 @@ export function NewsSection() {
           </div>
 
           <div className="flex justify-center lg:justify-end">
-            <img
+            <ExpandableImage
               src="/image5.png"
               alt="Aktuální plakát k akci na koupališti Koryčany"
-              className="w-full max-w-sm rounded-2xl border border-border object-cover"
+              className="w-full max-w-sm border border-border"
             />
           </div>
         </div>
