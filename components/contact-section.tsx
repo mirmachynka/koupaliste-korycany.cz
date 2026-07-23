@@ -18,8 +18,8 @@ const contactItems = [
   {
     icon: Mail,
     label: "E-mail",
-    value: "kontakt@koupaliste-korycany.cz",
-    href: "mailto:kontakt@koupaliste-korycany.cz",
+    value: "info@koupaliste-korycany.cz",
+    href: "mailto:info@koupaliste-korycany.cz",
   },
   {
     icon: MapPin,
