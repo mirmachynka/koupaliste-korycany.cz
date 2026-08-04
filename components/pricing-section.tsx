@@ -1,4 +1,4 @@
-import { Check } from "lucide-react"
+import { Banknote, Check } from "lucide-react"
 
 const rows = [
   { group: "Děti do 3 let", full: "zdarma", evening: "zdarma", free: true },
@@ -21,7 +21,19 @@ export function PricingSection() {
           </p>
         </div>
 
-        <div className="mx-auto mt-12 max-w-3xl overflow-hidden rounded-2xl border border-border bg-card">
+        <div className="mx-auto mt-8 flex max-w-3xl items-start gap-4 rounded-lg border border-amber-200 bg-amber-50 px-5 py-4 text-left">
+          <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-amber-100 text-amber-700">
+            <Banknote className="h-5 w-5" />
+          </span>
+          <div>
+            <p className="font-heading text-lg font-700 text-amber-950">Platba pouze v hotovosti</p>
+            <p className="mt-1 text-sm leading-relaxed text-amber-900/80">
+              U vstupu nepřijímáme platební karty ani bezhotovostní platby.
+            </p>
+          </div>
+        </div>
+
+        <div className="mx-auto mt-6 max-w-3xl overflow-hidden rounded-2xl border border-border bg-card">
           <div className="grid grid-cols-[1.6fr_1fr_1fr] gap-2 border-b border-border bg-primary px-5 py-4 text-primary-foreground md:px-8">
             <span className="text-sm font-600">Vstupné</span>
             <span className="text-right text-sm font-600">Celodenní</span>

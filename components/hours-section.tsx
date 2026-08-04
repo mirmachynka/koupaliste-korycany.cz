@@ -1,4 +1,6 @@
-import { Clock, CalendarDays } from "lucide-react"
+import { Clock, CalendarDays, ExternalLink } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { facebookHref } from "@/lib/social-links"
 
 const schedule = [
   { dates: "21. – 22. 6. 2026", time: "10:00 – 19:00" },
@@ -17,12 +19,23 @@ export function HoursSection() {
               Otevírací doba
             </span>
             <h2 className="mt-3 font-heading text-3xl font-700 text-balance text-foreground md:text-4xl">
-              Přijďte, kdy se vám to hodí
+              Aktuální provozní informace
             </h2>
             <p className="mt-4 max-w-md leading-relaxed text-muted-foreground text-pretty">
-              V hlavní sezóně máme otevřeno každý den. Sledujte sekci aktuálně pro případné změny provozní doby a
-              plánované akce.
+              Zde uvedená otevírací doba je orientační. Pokud chcete vědět, jestli máme dnes opravdu otevřeno,
+              ověřte si aktuální informaci na našem Facebooku, zejména při změnách počasí nebo provozu.
             </p>
+            <div className="mt-6">
+              <Button
+                nativeButton={false}
+                render={
+                  <a href={facebookHref} target="_blank" rel="noopener noreferrer">
+                    Ověřit na Facebooku
+                    <ExternalLink data-icon="inline-end" className="h-4 w-4" />
+                  </a>
+                }
+              />
+            </div>
           </div>
 
           <div className="space-y-3">
