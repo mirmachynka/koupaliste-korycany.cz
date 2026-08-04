@@ -28,7 +28,7 @@ export function PricingSection() {
           <div>
             <p className="font-heading text-lg font-700 text-amber-950">Platba pouze v hotovosti</p>
             <p className="mt-1 text-sm leading-relaxed text-amber-900/80">
-              U vstupu nepřijímáme platební karty ani bezhotovostní platby.
+              U vstupu nepřijímáme platební karty ani jiné formy bezhotovostních plateb.
             </p>
           </div>
         </div>
