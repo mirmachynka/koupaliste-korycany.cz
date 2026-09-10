@@ -1,0 +1,71 @@
+.hours {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.hours__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hours__lead {
+  max-width: 28rem;
+}
+
+.hours__action {
+  margin-top: 1.5rem;
+}
+
+.hours__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.hours__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 1px solid var(--border-surface-1);
+  border-radius: 1rem;
+  background: var(--white-500);
+  padding: 1.25rem 1.5rem;
+  color: var(--text-color);
+}
+
+.hours__row.is-highlight {
+  border-color: var(--primary-700);
+  background: var(--primary-700);
+  color: var(--white-500);
+}
+
+.hours__dates {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 500;
+}
+
+.hours__dates .tbf-icon {
+  font-size: 1.25rem;
+  color: var(--text-color-muted);
+}
+
+.hours__row.is-highlight .hours__dates .tbf-icon {
+  color: var(--white-500);
+}
+
+.hours__time {
+  font-family: var(--tbf-font-family-display, "Poppins", sans-serif);
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+@media (min-width: 1024px) {
+  .hours {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+  }
+}

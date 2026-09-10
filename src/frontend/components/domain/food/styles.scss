@@ -1,0 +1,43 @@
+.food {
+  display: grid;
+  gap: 2rem;
+}
+
+.food__image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  border-radius: 1rem;
+}
+
+.food__title {
+  margin-top: 0;
+}
+
+.food__actions {
+  display: flex;
+  margin-top: 1.75rem;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.food__location {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--text-color-muted);
+}
+
+@media (min-width: 640px) {
+  .food__actions {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .food {
+    grid-template-columns: 0.9fr 1.1fr;
+    align-items: center;
+  }
+}

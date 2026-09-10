@@ -1,0 +1,97 @@
+.section--hero {
+  overflow: hidden;
+  background: var(--primary-700);
+  padding-block: 4rem;
+  color: var(--white-500);
+}
+
+.hero {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.hero__badge {
+  display: inline-flex;
+  width: fit-content;
+  margin-bottom: 1.25rem;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 999px;
+  background: oklch(0.77 0.15 163 / 95%);
+  padding: 0.375rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--white-500);
+}
+
+.hero__title {
+  max-width: 42rem;
+  font-family: var(--tbf-font-family-display, "Poppins", sans-serif);
+  font-size: clamp(2.25rem, 6vw, 3.75rem);
+  font-weight: 800;
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+.hero__lead {
+  margin-top: 1.25rem;
+  max-width: 36rem;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  text-wrap: pretty;
+  color: color-mix(in oklch, var(--white-500), transparent 16%);
+}
+
+.hero__actions {
+  display: flex;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.hero__attribution {
+  display: flex;
+  margin-top: 2.5rem;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: color-mix(in oklch, var(--white-500), transparent 28%);
+}
+
+.hero__logo {
+  height: 1.25rem;
+  width: 1.25rem;
+  border-radius: 0.2rem;
+  object-fit: contain;
+}
+
+.hero__media {
+  overflow: hidden;
+  border: 1px solid color-mix(in oklch, var(--white-500), transparent 88%);
+  border-radius: 1.5rem;
+  background: color-mix(in oklch, oklch(0.47 0.05 252), transparent 70%);
+}
+
+.hero__carousel {
+  aspect-ratio: 4 / 3;
+}
+
+@media (min-width: 640px) {
+  .hero__carousel {
+    aspect-ratio: 5 / 4;
+  }
+}
+
+@media (min-width: 768px) {
+  .section--hero {
+    padding-block: 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    grid-template-columns: 1.05fr 0.95fr;
+    align-items: center;
+  }
+}

@@ -1,0 +1,118 @@
+.section--band {
+  background: var(--primary-700);
+  padding-block: 5rem;
+}
+
+.gallery {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.gallery__images {
+  display: grid;
+  order: 2;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.gallery__image {
+  height: 10rem;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.gallery__image--wide {
+  grid-column: span 2;
+  height: 14rem;
+}
+
+.gallery__copy {
+  order: 1;
+}
+
+.gallery__stats {
+  display: grid;
+  margin: 2rem 0 0;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.gallery__stat {
+  display: grid;
+  height: 100%;
+  grid-template-rows: 1fr auto;
+  border: 1px solid color-mix(in oklch, var(--white-500), transparent 88%);
+  border-radius: 0.75rem;
+  background: color-mix(in oklch, var(--white-500), transparent 95%);
+  padding: 1rem;
+  text-align: center;
+}
+
+.gallery__stat-value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--tbf-font-family-display, "Poppins", sans-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--white-500);
+}
+
+.gallery__stat-value--emphasis {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.gallery__stat-label {
+  display: flex;
+  min-height: 2.5rem;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: color-mix(in oklch, var(--white-500), transparent 28%);
+}
+
+@media (min-width: 640px) {
+  .gallery__image {
+    height: 12rem;
+  }
+
+  .gallery__image--wide {
+    height: 18rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .section--band {
+    padding-block: 7rem;
+  }
+
+  .gallery__stat-value {
+    font-size: 1.5rem;
+  }
+
+  .gallery__stat-value--emphasis {
+    font-size: 2.25rem;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+  }
+
+  .gallery__images {
+    order: 1;
+  }
+
+  .gallery__copy {
+    order: 2;
+    padding-left: 1.5rem;
+  }
+}

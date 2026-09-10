@@ -1,0 +1,62 @@
+.amenities__grid {
+  display: grid;
+  margin-top: 3.5rem;
+  gap: 1.25rem;
+}
+
+.amenity {
+  border: 1px solid var(--border-surface-1);
+  border-radius: 1rem;
+  background: var(--surface-1);
+  padding: 1.5rem;
+  transition: border-color 160ms ease, background 160ms ease;
+}
+
+.amenity:hover {
+  border-color: color-mix(in oklch, var(--primary-500), transparent 80%);
+  background: var(--white-500);
+}
+
+.amenity__icon {
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md, 0.5rem);
+  background: color-mix(in oklch, var(--primary-500), transparent 90%);
+  font-size: 1.5rem;
+  color: var(--primary-500);
+  transition: background 160ms ease;
+}
+
+.amenity:hover .amenity__icon {
+  background: color-mix(in oklch, var(--primary-500), transparent 86%);
+}
+
+.amenity__title {
+  margin-top: 1rem;
+  font-family: var(--tbf-font-family-display, "Poppins", sans-serif);
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.amenity__desc {
+  margin-top: 0.375rem;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--text-color-muted);
+}
+
+@media (min-width: 640px) {
+  .amenities__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .amenities__grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

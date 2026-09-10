@@ -1,0 +1,15 @@
+import { defineMessages } from "@trebired/i18n";
+
+export default defineMessages({
+    brand: "Koupaliště Koryčany",
+    cta: "Plan your visit",
+    menuClose: "Close menu",
+    menuOpen: "Open menu",
+    nav: {
+      contact: "Contact",
+      hours: "Opening hours",
+      news: "News",
+      offer: "What we offer",
+      pricing: "Prices",
+    },
+});

@@ -1,0 +1,91 @@
+.site-footer {
+  background: var(--primary-700);
+  color: var(--white-500);
+}
+
+.site-foot {
+  display: flex;
+  max-width: 72rem;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 2.5rem 1rem;
+}
+
+.site-foot__name {
+  font-family: var(--tbf-font-family-display, "Poppins", sans-serif);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white-500);
+}
+
+.site-foot__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.5rem;
+}
+
+.site-foot__link {
+  font-size: 0.875rem;
+  color: color-mix(in oklch, var(--white-500), transparent 40%);
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+.site-foot__link:hover {
+  color: var(--white-500);
+}
+
+.site-foot__end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.site-foot__social {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.site-foot__social-link {
+  display: inline-flex;
+  height: 2.25rem;
+  width: 2.25rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: color-mix(in oklch, var(--white-500), transparent 88%);
+  color: var(--white-500);
+  font-size: 1.125rem;
+  text-decoration: none;
+  transition: background 160ms ease;
+}
+
+.site-foot__social-link:hover {
+  background: color-mix(in oklch, var(--white-500), transparent 78%);
+}
+
+.site-foot__meta {
+  font-size: 0.75rem;
+  color: color-mix(in oklch, var(--white-500), transparent 60%);
+}
+
+@media (min-width: 640px) {
+  .site-foot {
+    flex-direction: row;
+  }
+
+  .site-foot__end {
+    align-items: flex-end;
+  }
+}
+
+@media (min-width: 768px) {
+  .site-foot {
+    padding-inline: 1.5rem;
+  }
+}

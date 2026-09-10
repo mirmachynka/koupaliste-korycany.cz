@@ -1,0 +1,78 @@
+.contact__grid {
+  display: grid;
+  margin-top: 3rem;
+  gap: 1.25rem;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  border: 1px solid var(--border-surface-1);
+  border-radius: 1rem;
+  background: var(--surface-1);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: border-color 160ms ease, background 160ms ease;
+}
+
+.contact-card:hover {
+  border-color: color-mix(in oklch, var(--primary-500), transparent 80%);
+  background: var(--white-500);
+}
+
+.contact-card__icon {
+  display: flex;
+  height: 3.5rem;
+  width: 3.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  background: color-mix(in oklch, var(--primary-500), transparent 90%);
+  font-size: 1.5rem;
+  color: var(--primary-500);
+}
+
+.contact-card__label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-color-muted);
+}
+
+.contact-card__values {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-card__value {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-family: var(--tbf-font-family-display, "Poppins", sans-serif);
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+a.contact-card__value:hover {
+  color: var(--primary-500);
+}
+
+.contact-card__value .tbf-icon {
+  font-size: 0.875rem;
+  color: var(--text-color-muted);
+}
+
+@media (min-width: 640px) {
+  .contact__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
