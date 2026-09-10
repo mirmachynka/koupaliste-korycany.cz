@@ -16,5 +16,5 @@ export default defineMessages({
       pool: "The swimming pool at Koupaliště Koryčany",
       summer: "A summer day at the Koryčany open air pool",
     },
-    title: "Koupaliště Koryčany",
+    title: "Koryčany Open-Air Pool",
 });
