@@ -33,8 +33,7 @@
     "@fontsource/inter": "^5.2.8",
     "@fontsource/poppins": "^5.2.6",
     "@trebired/bundler": "^5.13.1",
-    "@trebired/env": "^0.2.1",
-    "@trebired/frontend": "12.16.5",
+    "@trebired/frontend": "12.17.0",
     "@trebired/i18n": "^0.6.1",
     "@trebired/logger": "^2.7.1",
     "@trebired/seo": "^0.4.0",
@@ -53,5 +52,13 @@
     "sass": "^1.103.1",
     "sharp": "^0.34.5",
     "typescript": "5.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mirmachynka/koupaliste-korycany.cz.git"
+  },
+  "homepage": "https://koupaliste-korycany.cz",
+  "bugs": {
+    "url": "https://github.com/mirmachynka/koupaliste-korycany.cz/issues"
   }
 }

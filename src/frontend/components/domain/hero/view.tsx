@@ -42,7 +42,12 @@ function Hero() {
     <div className="section__inner hero">
     <HeroCopy translate={translate} />
     <div className="hero__media">
-    <Carousel className="hero__carousel" intervalMs={SLIDE_INTERVAL_MS} slides={slides} />
+    <Carousel
+    className="hero__carousel"
+    controlsPlacement="bottom"
+    intervalMs={SLIDE_INTERVAL_MS}
+    slides={slides}
+    />
     </div>
     </div>
     </section>

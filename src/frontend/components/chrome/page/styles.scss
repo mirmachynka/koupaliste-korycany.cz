@@ -60,10 +60,14 @@ body {
   margin-top: 0.75rem;
   font-family: var(--tbf-font-family-display, "Poppins", sans-serif);
   font-size: clamp(1.875rem, 4vw, 2.25rem);
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.2;
   text-wrap: balance;
   color: var(--text-color);
+}
+
+.section__title--strong {
+  font-weight: 700;
 }
 
 .section__title--light {

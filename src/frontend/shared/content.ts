@@ -9,8 +9,8 @@ const CONTACT_PHONES: ContactPhone[] = [
 ];
 
 const ADDRESS_LINE = "Masarykova 936";
-const ADDRESS_CITY = "768 05 Koryčany";
-const ADDRESS_MAPS_QUERY = "Masarykova 936, 768 05 Koryčany, Česko";
+const ADDRESS_CITY = "76805 Koryčany, Česko";
+const ADDRESS_MAPS_QUERY = "Masarykova 936, 76805 Koryčany, Česko";
 
 const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61560908927164";
 const INSTAGRAM_URL = "https://www.instagram.com/koupalistekorycany/";
