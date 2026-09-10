@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Koupaliste Korycany">
-  <rect width="64" height="64" rx="12" fill="#486584"/>
-  <circle cx="44" cy="20" r="7" fill="#f6c453"/>
-  <path d="M8 36c5 0 5-4 10-4s5 4 10 4 5-4 10-4 5 4 10 4 5-4 8-4" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
-  <path d="M8 47c5 0 5-4 10-4s5 4 10 4 5-4 10-4 5 4 10 4 5-4 8-4" fill="none" stroke="#bcd3ea" stroke-width="4" stroke-linecap="round"/>
-</svg>

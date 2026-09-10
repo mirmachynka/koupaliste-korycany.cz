@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="src/brand/favicon.svg" alt="Koupaliště Koryčany" width="120">
-
 **The website of Koupaliště Koryčany: a bilingual, prerendered page for the town's open air pool, with what the grounds offer, admission prices, the season's opening hours, current events and how to get in touch.**
 
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
@@ -12,7 +10,7 @@
 
 ---
 
-This repository owns what is specific to this site: the copy and its Czech and English translations, the eight sections, the season's dates and prices, the brand mark, and the design values in `.trebired/`. The `@trebired/*` packages own everything generic: the build, the browser runtime, locale routing, the slideshow, the gallery lightbox, SEO artifacts and logging. The pool's Facebook page owns the day-to-day opening status, which the page points to rather than repeats. The operator owns the Netlify site and the DNS record. This repository does not own a server, a database, ticketing or payments.
+This repository owns what is specific to this site: the copy and its Czech and English translations, the eight sections, the season's dates and prices, and the design values in `.trebired/`. The `@trebired/*` packages own everything generic: the build, the browser runtime, locale routing, the slideshow, the gallery lightbox, SEO artifacts and logging. The pool's Facebook page owns the day-to-day opening status, which the page points to rather than repeats. The operator owns the Netlify site and the DNS record. This repository does not own a server, a database, ticketing or payments.
 
 The output is static files. There is no backend, no contact form, no accounts and no analytics.
 
@@ -70,7 +68,7 @@ Package behaviour is configured under `.trebired/`:
 
 | File | Owns |
 | --- | --- |
-| `.trebired/frontend/config.ts` | Palette, fonts, favicon source, static icon specs, enabled systems, and the button, popover and lightbox tokens in `components/` |
+| `.trebired/frontend/config.ts` | Palette, fonts, static icon specs, enabled systems, and the button, popover and lightbox tokens in `components/` |
 | `.trebired/bundler/config.ts` | Frontend directory, build output directory, public path |
 | `.trebired/seo/config.ts` | Site URL, locales, locale strategy, robots policy, sitemap defaults |
 | `.trebired/i18n/config.ts` | Supported languages, fallback language, checker root |
@@ -81,7 +79,7 @@ The site is light only. Product and organization identity live in `package.json#
 
 ## Runtime
 
-The build emits an ES module client bundle, two stylesheets, the self hosted Inter and Poppins files, the rasterized favicon set, `robots.txt`, `sitemap.xml` and two prerendered documents: `/` in Czech and `/en` in English, each carrying the other language as a switchable template. Icons resolve from a build-generated static cache, so the page makes no icon requests. Netlify builds the site with the command and publish directory declared in `netlify.toml`.
+The build emits an ES module client bundle, two stylesheets, the self hosted Inter and Poppins files, `robots.txt`, `sitemap.xml` and two prerendered documents: `/` in Czech and `/en` in English, each carrying the other language as a switchable template. Icons resolve from a build-generated static cache, so the page makes no icon requests. Netlify builds the site with the command and publish directory declared in `netlify.toml`.
 
 ## Contributing
 
