@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/screens/mark.png" alt="Koupaliště Koryčany" width="120">
+<img src="src/brand/favicon.svg" alt="Koupaliště Koryčany" width="120">
 
 **The website of Koupaliště Koryčany: a bilingual, prerendered page for the town's open air pool, with what the grounds offer, admission prices, the season's opening hours, current events and how to get in touch.**
 
@@ -22,7 +22,6 @@ Koupaliště Koryčany is a Trebired product, licensed under the MIT License. Se
 
 - [Install](#install)
 - [Quick Start](#quick-start)
-- [Screens](#screens)
 - [Concepts](#concepts)
 - [Configuration](#configuration)
 - [Runtime](#runtime)
@@ -44,20 +43,6 @@ bun run dev
 ```
 
 The dev server runs behind the Code Discipline gate and serves on port 3000. `bun run build` writes the client and one prerendered document per route, carrying every language, into `dist`, the directory Netlify publishes. `bun run verify` runs the discipline check, the typecheck and the build.
-
-## Screens
-
-Czech by default and English after switching, both at `/`:
-
-| | |
-| --- | --- |
-| ![Home](docs/screens/home.png) | ![Home in English](docs/screens/home-en.png) |
-
-<div align="center">
-
-<img src="docs/screens/mobile.png" alt="Koupaliště Koryčany on a phone" width="300">
-
-</div>
 
 ## Concepts
 
