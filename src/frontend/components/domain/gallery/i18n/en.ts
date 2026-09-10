@@ -3,9 +3,9 @@ import { defineMessages } from "@trebired/i18n";
 export default defineMessages({
     eyebrow: "The grounds",
     images: {
-      grounds: "The lawns and pool of the Koryčany open air pool",
-      lawn: "The wide lawn at the Koryčany open air pool",
-      pool: "The swimming pool at Koupaliště Koryčany",
+      grounds: "The lawns and pool of the Koryčany open-air pool",
+      lawn: "The wide lawn at the Koryčany open-air pool",
+      pool: "The swimming pool at the Koryčany open-air pool",
     },
     lead:
     "Whether you come for a swim, a game of beach volleyball or just to sunbathe on the wide lawn, " +

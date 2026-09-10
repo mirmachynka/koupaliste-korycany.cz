@@ -13,7 +13,7 @@
     }
   },
   "name": "koupaliste-korycany-cz",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Marketing site for Koupaliště Koryčany: summer swimming, pricing and opening hours. React frontend, static build, no backend.",
   "type": "module",
   "private": true,

@@ -4,7 +4,6 @@ import { createLocalTranslator } from "@trebired/i18n";
 import { FACEBOOK_URL, INSTAGRAM_URL } from "#uvvfpl0fiu08";
 import { ICON_FACEBOOK, ICON_INSTAGRAM } from "#ax5z6rnbca47";
 import { NAV_HREFS, NAV_SECTIONS } from "#2dbjwp66wjhs";
-import { productDisplayName } from "#90jtdmye9evq";
 import { useLanguage } from "#4az1cnv8k047";
 
 const COPYRIGHT_YEAR = 2026;
@@ -20,7 +19,7 @@ function FooterContent() {
 
   return (
     <div className="site-foot">
-    <span className="site-foot__name">{productDisplayName}</span>
+    <span className="site-foot__name">{translate("name")}</span>
 
     <nav aria-label={translate("navLabel")} className="site-foot__nav">
     {NAV_SECTIONS.map((section) => (
@@ -44,7 +43,7 @@ function FooterContent() {
           </TextLink>
     ))}
     </div>
-    <p className="site-foot__meta">&copy; {COPYRIGHT_YEAR} {productDisplayName}</p>
+    <p className="site-foot__meta">&copy; {COPYRIGHT_YEAR} {translate("name")}</p>
     </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import { defineMessages } from "@trebired/i18n";
 
 export default defineMessages({
-    brand: "Koupaliště Koryčany",
+    brand: "Koryčany Open-Air Pool",
     cta: "Plan your visit",
     menuClose: "Close menu",
     menuOpen: "Open menu",

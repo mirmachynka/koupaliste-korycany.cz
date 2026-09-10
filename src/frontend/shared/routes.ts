@@ -17,9 +17,9 @@ const ROUTES: Record<string, Record<SiteLanguage, RouteMeta>> = {
         "sportovní hřiště a občerstvení. Ideální místo pro letní rodinnou zábavu.",
     },
     en: {
-      title: "Koryčany open air pool, summer swimming and relaxation",
+      title: "Koryčany Open-Air Pool, summer swimming and relaxation",
       description:
-      "Koupaliště Koryčany has a fifty metre pool, a paddling pool for children, " +
+      "The Koryčany Open-Air Pool has a fifty metre pool, a paddling pool for children, " +
         "sports courts and refreshments. A place to spend a summer day with the family.",
     },
   },

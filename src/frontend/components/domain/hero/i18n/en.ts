@@ -10,11 +10,11 @@ export default defineMessages({
     lead:
     "A place for summer fun with the family and for sport and relaxation. Come for a swim, " +
       "unwind in the sun and enjoy a proper summer atmosphere.",
-    logoAlt: "Koupaliště Koryčany logo",
+    logoAlt: "Koryčany Open-Air Pool logo",
     slides: {
-      grounds: "The lawns of the Koryčany open air pool",
-      pool: "The swimming pool at Koupaliště Koryčany",
-      summer: "A summer day at the Koryčany open air pool",
+      grounds: "The lawns of the Koryčany open-air pool",
+      pool: "The swimming pool at the Koryčany open-air pool",
+      summer: "A summer day at the Koryčany open-air pool",
     },
     title: "Koryčany Open-Air Pool",
 });
