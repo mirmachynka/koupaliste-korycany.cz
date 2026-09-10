@@ -56,7 +56,7 @@ For search engines, `localeStrategy: "prefix"` in `.trebired/seo/config.ts` also
 
 ### Seasonal content
 
-The season's dates are copy, so they live in the translation files: the badge in the hero and the schedule in opening hours. Prices live in the pricing translations. [CONTRIBUTING.md](CONTRIBUTING.md#seasonal-updates) lists the exact files to edit each season.
+The season's dates are copy, so they live in the opening hours translations. Prices live in the pricing translations. [CONTRIBUTING.md](CONTRIBUTING.md#seasonal-updates) lists the exact files to edit each season.
 
 ### The slideshow
 

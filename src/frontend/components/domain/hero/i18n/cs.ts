@@ -2,7 +2,6 @@ import { defineMessages } from "@trebired/i18n";
 
 export default defineMessages({
     attribution: "Koryčany · provozováno s příspěvkem města Koryčany",
-    badge: "Letní sezóna 2026 je v plném proudu",
     cta: {
       hours: "Otevírací doba a ceník",
       offer: "Co u nás najdete",

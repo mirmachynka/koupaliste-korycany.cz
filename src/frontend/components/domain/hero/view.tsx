@@ -1,10 +1,9 @@
-import { Carousel, Icon } from "@trebired/frontend/react";
+import { Carousel } from "@trebired/frontend/react";
 import { createLocalTranslator } from "@trebired/i18n";
 import type { I18nTranslator } from "@trebired/i18n";
 
 import { Button } from "#j30p61e0n8i9";
 import { HERO_SLIDES } from "#l3ocne4j9vkv";
-import { ICON_SUN } from "#ax5z6rnbca47";
 import { useLanguage } from "#4az1cnv8k047";
 
 const SLIDE_INTERVAL_MS = 5000;
@@ -12,10 +11,6 @@ const SLIDE_INTERVAL_MS = 5000;
 function HeroCopy({ translate }: { translate: I18nTranslator }) {
   return (
     <div className="hero__copy">
-    <span className="hero__badge">
-    <Icon aria-hidden="true" spec={ICON_SUN} />
-    {translate("badge")}
-    </span>
     <h1 className="hero__title">{translate("title")}</h1>
     <p className="hero__lead">{translate("lead")}</p>
 

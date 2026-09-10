@@ -7,6 +7,7 @@ This project follows semantic versioning once published.
 ## 1.0.3
 
 - Removed the news section, "A summer evening at the pool", with its event poster and its "News" link in the header and footer. The event it announced has passed.
+- Removed the "The 2026 summer season is in full swing" badge from the hero. The season it announced is over.
 - Removed the small uppercase labels above the section titles ("Ready for you", "The grounds", "Admission prices", "Opening hours", "Contact"). They repeated the title below them.
 - Fixed the header navigation's accessible label. It read the "News" link text instead of naming the navigation; it is now "Sections".
 

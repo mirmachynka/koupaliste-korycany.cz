@@ -17,10 +17,7 @@ bun run verify
 
 ## Seasonal updates
 
-Each season's dates live in two pairs of translation files. Update the Czech and English file of each pair together:
-
-- `src/frontend/components/domain/hero/i18n/{cs,en}.ts`: the season badge.
-- `src/frontend/components/domain/hours/i18n/{cs,en}.ts`: the opening hours schedule.
+Each season's dates live in the opening hours schedule, `src/frontend/components/domain/hours/i18n/{cs,en}.ts`. Update the Czech and English file together.
 
 Prices live in `src/frontend/components/domain/pricing/i18n/{cs,en}.ts`.
 

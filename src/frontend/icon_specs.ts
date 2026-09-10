@@ -16,7 +16,6 @@ export const ICON_MENU = "remixicon:menu-line";
 export const ICON_PHONE = "remixicon:phone-line";
 export const ICON_RESTAURANT = "remixicon:restaurant-2-line";
 export const ICON_SPORT = "remixicon:basketball-line";
-export const ICON_SUN = "remixicon:sun-line";
 export const ICON_TABLE = "remixicon:table-line";
 export const ICON_TREES = "remixicon:plant-line";
 export const ICON_UMBRELLA = "remixicon:umbrella-line";
@@ -40,7 +39,6 @@ export const ALL_ICON_SPECS = [
   ICON_PHONE,
   ICON_RESTAURANT,
   ICON_SPORT,
-  ICON_SUN,
   ICON_TABLE,
   ICON_TREES,
   ICON_UMBRELLA,

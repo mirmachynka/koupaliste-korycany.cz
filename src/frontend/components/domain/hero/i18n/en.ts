@@ -2,7 +2,6 @@ import { defineMessages } from "@trebired/i18n";
 
 export default defineMessages({
     attribution: "Koryčany · run with support from the town of Koryčany",
-    badge: "The 2026 summer season is in full swing",
     cta: {
       hours: "Opening hours and prices",
       offer: "What you will find here",
