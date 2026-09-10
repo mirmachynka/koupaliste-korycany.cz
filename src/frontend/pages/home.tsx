@@ -4,14 +4,12 @@ import { Food } from "#jqf49yy2da0q";
 import { Gallery } from "#x5qztcibn6h0";
 import { Hero } from "#sr93j8rrcu6h";
 import { Hours } from "#h5qh2k2tuhu6";
-import { News } from "#ys42cuaelzl7";
 import { Pricing } from "#v98afq1i4ivz";
 
 function HomePage() {
   return (
     <main className="site-main">
     <Hero />
-    <News />
     <Amenities />
     <Gallery />
     <Pricing />

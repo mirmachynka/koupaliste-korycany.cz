@@ -5,7 +5,6 @@ export default defineMessages({
     nav: {
       contact: "Kontakt",
       hours: "Otevírací doba",
-      news: "Aktuality",
       offer: "Nabídka",
       pricing: "Ceník",
     },

@@ -8,8 +8,8 @@ export default defineMessages({
     nav: {
       contact: "Contact",
       hours: "Opening hours",
-      news: "News",
       offer: "What we offer",
       pricing: "Prices",
     },
+    navLabel: "Sections",
 });

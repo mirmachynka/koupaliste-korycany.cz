@@ -16,8 +16,7 @@ const GALLERY_IMAGES: SiteImage[] = [
 ];
 
 const GALLERY_SOURCES = GALLERY_IMAGES.map((image) => image.src);
-const NEWS_POSTER = "/image5.png";
 const RESTAURANT_PHOTO = "/restaurace-kulturni-dum.jpg";
 
-export { GALLERY_IMAGES, GALLERY_SOURCES, HERO_SLIDES, NEWS_POSTER, RESTAURANT_PHOTO };
+export { GALLERY_IMAGES, GALLERY_SOURCES, HERO_SLIDES, RESTAURANT_PHOTO };
 export type { SiteImage };

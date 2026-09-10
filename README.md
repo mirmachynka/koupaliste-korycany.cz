@@ -46,7 +46,7 @@ The dev server runs behind the Code Discipline gate and serves on port 3000. `bu
 
 ### One page, every language, prerendered, then hydrated
 
-`src/frontend/pages/home.tsx` composes eight sections: the hero, news, what the grounds offer, the gallery, prices, opening hours, food nearby and contact. At build time `src/frontend/ssr/entry.tsx` renders them once per locale inside `LocaleProvider`, and `src/bin/frontend/ssr.ts` hands the renders to `createLocaleDocumentBody()` from `@trebired/frontend`: Czech becomes the live markup and English an inert template in the same document. In the browser the header and footer hydrate as their own roots and the page body hydrates as a live island.
+`src/frontend/pages/home.tsx` composes seven sections: the hero, what the grounds offer, the gallery, prices, opening hours, food nearby and contact. At build time `src/frontend/ssr/entry.tsx` renders them once per locale inside `LocaleProvider`, and `src/bin/frontend/ssr.ts` hands the renders to `createLocaleDocumentBody()` from `@trebired/frontend`: Czech becomes the live markup and English an inert template in the same document. In the browser the header and footer hydrate as their own roots and the page body hydrates as a live island.
 
 ### One URL, language switched in place
 
@@ -56,7 +56,7 @@ For search engines, `localeStrategy: "prefix"` in `.trebired/seo/config.ts` also
 
 ### Seasonal content
 
-The season's dates are copy, so they live in the translation files: the badge in the hero, the current event in news, and the schedule in opening hours. Prices live in the pricing translations. [CONTRIBUTING.md](CONTRIBUTING.md#seasonal-updates) lists the exact files to edit each season.
+The season's dates are copy, so they live in the translation files: the badge in the hero and the schedule in opening hours. Prices live in the pricing translations. [CONTRIBUTING.md](CONTRIBUTING.md#seasonal-updates) lists the exact files to edit each season.
 
 ### The slideshow
 

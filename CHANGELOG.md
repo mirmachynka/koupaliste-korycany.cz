@@ -4,6 +4,12 @@ All notable changes to `koupaliste-korycany-cz` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 1.0.3
+
+- Removed the news section, "A summer evening at the pool", with its event poster and its "News" link in the header and footer. The event it announced has passed.
+- Removed the small uppercase labels above the section titles ("Ready for you", "The grounds", "Admission prices", "Opening hours", "Contact"). They repeated the title below them.
+- Fixed the header navigation's accessible label. It read the "News" link text instead of naming the navigation; it is now "Sections".
+
 ## 1.0.2
 
 - Translated the names left in Czech on the English page. The header, footer, logo description and English page title read Koryčany Open-Air Pool, the image descriptions no longer name the pool in Czech, and the section about Střílky names Střílky Restaurant, the Community Centre Restaurant and Gól Pub. The footer and its copyright line previously printed the Czech product name from `package.json` in every language; they now take the name from the footer's translation files.

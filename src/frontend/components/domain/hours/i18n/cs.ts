@@ -2,7 +2,6 @@ import { defineMessages } from "@trebired/i18n";
 
 export default defineMessages({
     cta: "Ověřit na Facebooku",
-    eyebrow: "Otevírací doba",
     lead:
     "Zde uvedená otevírací doba je orientační. Pokud chcete vědět, jestli máme dnes opravdu otevřeno, " +
       "ověřte si aktuální informaci na našem Facebooku, zejména při změnách počasí nebo provozu.",

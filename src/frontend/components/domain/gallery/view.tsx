@@ -47,7 +47,6 @@ function Gallery() {
     </div>
 
     <div className="gallery__copy">
-    <span className="section__eyebrow section__eyebrow--light">{translate("eyebrow")}</span>
     <h2 className="section__title section__title--light">{translate("title")}</h2>
     <p className="section__lead section__lead--light">{translate("lead")}</p>
     <GalleryStats translate={translate} />

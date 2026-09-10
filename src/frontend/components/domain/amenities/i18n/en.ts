@@ -1,7 +1,6 @@
 import { defineMessages } from "@trebired/i18n";
 
 export default defineMessages({
-    eyebrow: "Ready for you",
     items: {
       beach: { desc: "Three courts with good sand and a stand for spectators.", title: "Beach volleyball" },
       food: { desc: "Food and drinks under cover, so you can stay all day.", title: "Covered refreshments" },

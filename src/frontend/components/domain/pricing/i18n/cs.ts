@@ -2,7 +2,6 @@ import { defineMessages } from "@trebired/i18n";
 
 export default defineMessages({
     columns: { evening: "Po 16:00", full: "Celodenní", group: "Vstupné" },
-    eyebrow: "Ceník vstupného",
     lead: "Zvýhodněné vstupné platí po 16:00 hodině. Děti do 3 let mají vstup zdarma.",
     notes: {
       evening: "Zvýhodněné večerní vstupné",

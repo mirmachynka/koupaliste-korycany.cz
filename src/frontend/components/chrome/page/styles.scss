@@ -44,20 +44,8 @@ body {
   text-align: center;
 }
 
-.section__eyebrow {
-  font-size: 0.875rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--primary-500);
-}
-
-.section__eyebrow--light {
-  color: color-mix(in oklch, var(--white-500), transparent 28%);
-}
-
 .section__title {
-  margin-top: 0.75rem;
+  margin-top: 0;
   font-family: var(--tbf-font-family-display, "Poppins", sans-serif);
   font-size: clamp(1.875rem, 4vw, 2.25rem);
   font-weight: 500;

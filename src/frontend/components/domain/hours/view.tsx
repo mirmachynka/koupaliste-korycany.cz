@@ -3,7 +3,7 @@ import { createLocalTranslator } from "@trebired/i18n";
 
 import { Button } from "#j30p61e0n8i9";
 import { FACEBOOK_URL } from "#uvvfpl0fiu08";
-import { ICON_CALENDAR, ICON_CLOCK, ICON_EXTERNAL } from "#ax5z6rnbca47";
+import { ICON_CALENDAR, ICON_EXTERNAL } from "#ax5z6rnbca47";
 import { useLanguage } from "#4az1cnv8k047";
 
 const SCHEDULE = [
@@ -20,10 +20,6 @@ function Hours() {
     <section className="section" id="otviraci-doba">
     <div className="section__inner hours">
     <div className="hours__copy">
-    <span className="section__eyebrow hours__eyebrow">
-    <Icon aria-hidden="true" spec={ICON_CLOCK} />
-    {translate("eyebrow")}
-    </span>
     <h2 className="section__title">{translate("title")}</h2>
     <p className="section__lead hours__lead">{translate("lead")}</p>
     <div className="hours__action">

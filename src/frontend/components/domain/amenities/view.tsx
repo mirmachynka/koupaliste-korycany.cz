@@ -32,7 +32,6 @@ function Amenities() {
     <section className="section" id="nabidka">
     <div className="section__inner amenities">
     <div className="section__head">
-    <span className="section__eyebrow">{translate("eyebrow")}</span>
     <h2 className="section__title">{translate("title")}</h2>
     <p className="section__lead">{translate("lead")}</p>
     </div>

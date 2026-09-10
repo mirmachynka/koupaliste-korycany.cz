@@ -1,7 +1,6 @@
 import { defineMessages } from "@trebired/i18n";
 
 export default defineMessages({
-    eyebrow: "Máme pro vás nachystáno",
     items: {
       beach: { desc: "Tři hřiště s kvalitním pískem a tribunou pro diváky.", title: "Beachvolejbal" },
       food: { desc: "Nabídka jídel a nápojů, ať vydržíte celý den.", title: "Kryté občerstvení" },

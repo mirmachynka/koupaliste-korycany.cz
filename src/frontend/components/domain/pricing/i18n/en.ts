@@ -2,7 +2,6 @@ import { defineMessages } from "@trebired/i18n";
 
 export default defineMessages({
     columns: { evening: "After 4 pm", full: "All day", group: "Admission" },
-    eyebrow: "Admission prices",
     lead: "Reduced admission applies after 4 pm. Children under 3 get in free.",
     notes: {
       evening: "Reduced evening admission",

@@ -18,7 +18,7 @@ function HeaderContent() {
     <div className="site-bar__row">
     <a className="site-bar__brand" href="#top">{translate("brand")}</a>
 
-    <nav aria-label={translate("nav.news")} className="site-bar__nav">
+    <nav aria-label={translate("navLabel")} className="site-bar__nav">
     {NAV_SECTIONS.map((section) => (
           <a className="site-bar__link" href={NAV_HREFS[section]} key={section}>
           {translate(`nav.${section}`)}

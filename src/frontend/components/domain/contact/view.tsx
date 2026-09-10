@@ -49,7 +49,6 @@ function Contact() {
     <section className="section" id="kontakt">
     <div className="section__inner contact">
     <div className="section__head">
-    <span className="section__eyebrow">{translate("eyebrow")}</span>
     <h2 className="section__title section__title--strong">{translate("title")}</h2>
     <p className="section__lead">{translate("lead")}</p>
     </div>

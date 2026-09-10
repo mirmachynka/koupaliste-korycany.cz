@@ -4,9 +4,6 @@
       "#01opu2fzfidz": [
         "../../../src/frontend/components/domain/pricing/i18n/en.ts"
       ],
-      "#0261l0r78roi": [
-        "../../../src/frontend/components/domain/news/styles.scss"
-      ],
       "#03xd57vgw05e": [
         "../../../src/frontend/components/chrome/header/view.tsx"
       ],
@@ -18,9 +15,6 @@
       ],
       "#0t7t5vhh70b9": [
         "../../../src/frontend/components/domain/hero/i18n/en.ts"
-      ],
-      "#17dc4bef0hh6": [
-        "../../../src/frontend/components/domain/news/i18n/en.ts"
       ],
       "#1sqysi837pdr": [
         "../../../src/frontend/components/domain/hero/i18n/cs.ts"
@@ -45,9 +39,6 @@
       ],
       "#5zncvmpdfdzb": [
         "../../../src/frontend/components/domain/gallery/i18n/en.ts"
-      ],
-      "#635oralhf3fn": [
-        "../../../src/frontend/components/domain/news/i18n/cs.ts"
       ],
       "#73haw5ujc6t3": [
         "../../../src/frontend/shared/page_content.tsx"
@@ -228,9 +219,6 @@
       ],
       "#ye5zmwneyxpi": [
         "../../../src/bin/frontend/seo.ts"
-      ],
-      "#ys42cuaelzl7": [
-        "../../../src/frontend/components/domain/news/view.tsx"
       ],
       "#z3saax8hbdll": [
         "../../../src/frontend/components/domain/food/i18n/cs.ts"

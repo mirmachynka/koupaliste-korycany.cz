@@ -2,7 +2,6 @@ import { defineMessages } from "@trebired/i18n";
 
 export default defineMessages({
     cta: "Check on Facebook",
-    eyebrow: "Opening hours",
     lead:
     "The opening hours shown here are a guide. To be sure we are open today, check the latest " +
       "update on our Facebook page, especially when the weather or operations change.",

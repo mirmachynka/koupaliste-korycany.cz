@@ -45,7 +45,6 @@ function Pricing() {
     <section className="section" id="cenik">
     <div className="section__inner pricing">
     <div className="section__head">
-    <span className="section__eyebrow">{translate("eyebrow")}</span>
     <h2 className="section__title">{translate("title")}</h2>
     <p className="section__lead">{translate("lead")}</p>
     </div>

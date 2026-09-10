@@ -1,7 +1,6 @@
 import { defineMessages } from "@trebired/i18n";
 
 export default defineMessages({
-    eyebrow: "Areál",
     images: {
       grounds: "Travnatý areál a bazén koupaliště Koryčany",
       lawn: "Rozlehlá travnatá plocha na koupališti Koryčany",
