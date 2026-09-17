@@ -73,6 +73,9 @@
       "#cqf4qma7ddc9": [
         "../../../src/frontend/components/chrome/footer/view.tsx"
       ],
+      "#dbcn54joikvv": [
+        "../../frontend/components/shell.ts"
+      ],
       "#de7dlkp6n0nx": [
         "../../seo/config.ts"
       ],
@@ -132,9 +135,6 @@
       ],
       "#lvu7hwe0yik0": [
         "../../../src/frontend/components/chrome/header/i18n/cs.ts"
-      ],
-      "#m1paec0kxvkn": [
-        "../../../src/frontend/components/chrome/header/styles.scss"
       ],
       "#m581sz8097th": [
         "../../../src/frontend/components/domain/pricing/styles.scss"
