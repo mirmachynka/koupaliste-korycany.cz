@@ -4,6 +4,11 @@ All notable changes to `koupaliste-korycany-cz` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 1.0.4
+
+- The language menu takes each language's name from `languageName` in `@trebired/frontend` 13.7.0, which names a language in that language (Čeština, English). The menu read the same before; a language added later is now named correctly without a hand-written label.
+- Moved to `@trebired/logger` 3.0.0. It saves logs to SQLite and needs Bun to save them; this site logs to the console only, so nothing else changes.
+
 ## 1.0.3
 
 - Removed the news section, "A summer evening at the pool", with its event poster and its "News" link in the header and footer. The event it announced has passed.
