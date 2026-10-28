@@ -10,12 +10,6 @@
 
 ---
 
-This repository owns what is specific to this site: the copy and its Czech and English translations, the eight sections, the season's dates and prices, and the design values in `.trebired/`. The `@trebired/*` packages own everything generic: the build, the browser runtime, locale routing, the slideshow, the gallery lightbox, SEO artifacts and logging. The pool's Facebook page owns the day-to-day opening status, which the page points to rather than repeats. The operator owns the Netlify site and the DNS record. This repository does not own a server, a database, ticketing or payments.
-
-The output is static files. There is no backend, no contact form, no accounts and no analytics.
-
-Koupaliště Koryčany is a Trebired product, licensed under the MIT License. See [LICENSE](LICENSE).
-
 ## Contents
 
 - [Install](#install)
